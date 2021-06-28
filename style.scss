@@ -280,7 +280,7 @@ nav {
 }
 
 .wrapper-footer {
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 100px);
   width: 100%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -289,7 +289,7 @@ nav {
 }
 
 footer {
-  height: 50px;
+  height: 100px;
   //padding: 20px 0;
   text-align: center;
 }
