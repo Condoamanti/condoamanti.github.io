@@ -13,11 +13,6 @@
 /* BASE RULES */
 /**************/
 
-html, body {
-  margin: 0;
-  height: 100%;
-}
-
 html {
   font-size: 100%;
 }
@@ -29,13 +24,10 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-}
-
-.footer {
-  flex-shrink: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -280,8 +272,6 @@ nav {
 }
 
 .wrapper-footer {
-  min-height: calc(100vh - 100px);
-  width: 100%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -289,8 +279,7 @@ nav {
 }
 
 footer {
-  height: 100px;
-  //padding: 20px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
