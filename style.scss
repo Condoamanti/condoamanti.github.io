@@ -13,6 +13,10 @@
 /* BASE RULES */
 /**************/
 
+html, body {
+  height: 100%;
+}
+
 html {
   font-size: 100%;
 }
@@ -24,10 +28,15 @@ body {
 }
 
 .container {
+  flex: 1 0 auto;
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
